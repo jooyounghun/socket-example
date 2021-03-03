@@ -9,7 +9,7 @@ client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 client_socket.connect((HOST, PORT))
 
-conn = pymysql.connect(host='localhost', user='root', password='ahfQkd12', db ='study_db', charset='utf8')
+conn = pymysql.connect(host='localhost', user='root', password='', db ='study_db', charset='utf8')
 
 curs = conn.cursor()
 
